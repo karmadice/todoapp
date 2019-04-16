@@ -1,0 +1,55 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap-vue/src/index.scss";
+@import "~pc-bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.css";
+
+body{
+    padding-top: 5rem;
+}
+a.tab-link{
+    color: #000000;
+}
+a.tab-link.active{
+    color:$caribbeangreen;
+    background-color: #ffffff;
+}
+a.tab-link:hover{
+    text-decoration: none;
+}
+.icon {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 1.5rem;
+}
+.check {
+    color: #ff3860;
+}
+.done {
+    color: #22c65b;
+}
+p.task {
+    margin-top: 1rem !important;
+}
+.danger{
+    color: $red;
+}
+.icon > i {
+    cursor: pointer;
+}
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
